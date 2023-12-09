@@ -27,11 +27,12 @@ class Galon extends CI_Controller {
 	public function insert(){
 			$id = uniqid();
             $config['upload_path'] = './asset/img/';
-            $config['allowed_types'] = 'jpg|png|jpeg';
+            $config['allowed_types'] = 'gif|jpg|png';
             $config['max_size'] = '1000000';
             $config['file_name'] = str_replace('.', '_', $id);
 
             $this->load->library('upload', $config);
+            $this->upload->initialize($config);
             if (!$this->upload->do_upload('image')) {
                 $this->session->set_flashdata('error', $this->upload->display_errors());
                 redirect('');
