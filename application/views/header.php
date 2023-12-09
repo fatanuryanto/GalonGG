@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Air Isi Ulang Sekar Wangi</title>
+    <title>Galon GG</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -35,7 +35,7 @@
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a href="<?=base_url('')?>" class="text-decoration-none">
-                    <h5 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">Air Isi Ulang </span> Sekar Wangi</h5>
+                    <h5 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">Galon</span> GG</h5>
                 </a>
             </div>
             <div class="col-lg-6 col-6 text-left">
